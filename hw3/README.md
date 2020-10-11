@@ -1,4 +1,4 @@
-ДЗ #3 OpenMP
+ДЗ #3 OpenMP \
 Cheat sheet on OpenMP: https://www.openmp.org/wp-content/uploads/OpenMP-4.0-C.pdf
 
 1. Программы с багами – примеры программ, которые надо починить.
