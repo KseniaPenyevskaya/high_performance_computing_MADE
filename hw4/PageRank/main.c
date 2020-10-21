@@ -1,7 +1,10 @@
 #include "omp.h"
-#include <ctime>
-#include <iostream>
-const size_t N = 10;
+#include "time.h"
+#include <math.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+const size_t N = 100;
 double EPS = 1e-5;
 
 
@@ -131,8 +134,8 @@ int main(int argc, char* argv[]) {
 		double nRank[N];
 		pageRank(matrix, pRank);
 		for (int i = 0; i < N; ++i) {
-			std::cout << pRank[i] << " ";
+			printf("%f ", pRank[i]);
 		}
-		std::cout << '\n';
+		printf("\n");
 		naiveRank(matrix, nRank);
 }
