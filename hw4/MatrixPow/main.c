@@ -1,6 +1,8 @@
 #include "omp.h"
-#include <ctime>
-#include <iostream>
+#include "time.h"
+#include <math.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 const size_t N = 10;
 double EPS = 1e-5;
